@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>二级菜单制作</title>
+    <style> 
+        .clear:after {
+            content: '';
+            display: block;
+            height: 0;
+            clear: both;
+        }
+        *{
+		    padding:0;
+		    margin:0;
+	    }
+	    a{
+		    text-decoration:none;
+	    }
+	    ul{
+		    list-style:none;
+	    }
+        .boxex{
+            width: 1600px;
+            height: 60px;
+            position: absolute;
+            bottom: 0px;
+            background-color: black;
+        }
+        .pra{
+            font-size: 10px;
+            color: white;
+            text-align: center;
+        }
+        .nav li {
+            width: 160px;
+            height: 80px;
+            line-height: 40px;
+            font-size: 20px;
+            float:left;
+            position: relative;
+        }  
+        .nav li:hover>a {
+            color: orange;
+            font-weight: bold;
+            text-decoration:underline;
+        }
+        .nav {
+            width: 1600px;
+            height: 60px;
+            line-height: 40px;
+            text-align: center;
+            float: left;        
+        }
+        .daohang{
+            width: 160px;
+            height: 20px;
+            line-height: 40px;
+            text-align: center;
+            font-size: 20px;
+            position: absolute;
+            left:400px;
+            float: left;    
+        } 
+        .nav2 {
+            background-color: #ddd;
+            height: 600px;
+            width: 1600px;
+            position: absolute;
+            top:80px;
+            bottom: 120px;
+        }
+        .jg{
+            width: 300px;
+            height: 30px;
+            margin-top: 0px;
+            text-align: center;
+            background: white;
+            position: absolute;
+            top: 0px;
+            left:200px;
+            float: left;              
+        }
+        .ab1{
+            width: 398px;
+            height: 560px;
+            position: absolute;
+            top: 20px;
+            left: 200px;
+            float: left;
+        }
+        .ab2{
+            width: 398px;
+            height: 298px;
+            position: absolute;
+            top: 20px;
+            left: 600px;
+            float: left;
+        }
+        .ab3{
+            width: 398px;
+            height: 298px;                     
+            position: absolute;
+            top: 20px;
+            left:1002px;
+            float: left;
+        }
+        .ab4{
+            width: 398px;
+            height: 298px;                                  
+            position: absolute;
+            top: 298px;
+            left: 600px;
+            float: left;
+        }
+        .ab5{
+            width: 398px;
+            height: 298px;                              
+            position: absolute;
+            top: 298px;
+            left: 1002px;
+            float: left;
+        }
+        </style>
+</head>
+<body>
+    <div class="nav2">
+        <ul class="clear">
+            <li><a href="#" div class="ab1"> <img src="visa1.jpg"></a></li>
+            <li><a href="#" div class="ab2"> <img src="visa2.jpg"></a></li>
+            <li><a href="#" div class="ab3"> <img src="visa3.jpg"></a></li>
+            <li><a href="#" div class="ab4"> <img src="visa4.jpg"> </a></li>
+            <li><a href="#" div class="ab5"> <img src="visa5.jpg"></a></li>
+        </ul>
+    </div>
+    <div class="nav">
+        <ul class="clear">
+            <li><a href="#" div class="jg"> <img src="logotc.png"></a></li>
+            <li><a href="#" div class="daohang">首页</a></li>
+            <li><a href="#"div class="daohang">热门路线</a></li>
+            <li><a href="#"div class="daohang">签证推荐</a>    </li>
+            <li><a href="#"div class="daohang">酒店预订</a></li>
+            <li><a href="#"div class="daohang">使命愿景</a></li>
+        </ul>
+        <div class="boxex">
+            <p class="pra">苏ICP备000号、2014-2017版权所有</p>
+        </div>
+    </div>
+</body>
+<html>

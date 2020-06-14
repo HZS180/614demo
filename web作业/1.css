@@ -1,0 +1,19 @@
+.container
+{
+	with:1920px;
+	text-align: center;
+	margin: 0 auto;
+}
+.header-info
+{
+	float:right;
+}
+.header-info li
+{
+    width:241px;
+    height:18px;
+    font-size:18px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(5,5,5,1);
+}
